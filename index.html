@@ -9,20 +9,20 @@
 <body>
     <!-- 텍스트 태그 (+ 이 기호는 주석) -->
     <h1>홈페이지 만들기</h1>
-
+    <hr>
     <!-- h2는 부제목, 글씨크기 더 작음 -->
     <h2>뭐부터 시작하면 좋을까</h2>
 
     <!-- p는 단락 태그 -->
     <!-- a는 링크 태그 -->
 
-    <p>여기는 단락의 자리!</p>
-    <p>두 개를 만들면 어떻게 될까</p>
-    <p>세 번째 단락, 나는 프론트엔드 언어를 <a href="http://www.youtube.com">유튜브</a>를 통해 배우는 중!</p>
+    <p>여기는 <em>단락</em>의 자리!</p>
+    <p>두 개를 만들면 <br> 어떻게 될까</p>
+    <p><b>세 번째 단락,</b> 나는 <strong>프론트엔드 언어</strong>를 <a href="http://www.youtube.com">유튜브</a>를 통해 배우는 중!</p>
 
     <!-- 미디어 태그 -->
     <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTVfMjE3%2FMDAxNjI2MzE3NjcyNDQ3.PAPocd7wg2Qe5lHdLgiR8vQGYKU9j1jAsyPSnTmY69gg.rpLj5ZZPN63NJkBWeYq7nUx0cy85_pWUytHvB_azz0wg.PNG.dragon_jeju%2F3.PNG&type=a340"/>
-
+    <hr>
     <h2>언어의 종류</h2>
 
     <!-- 리스트 태그 -->
@@ -32,10 +32,35 @@
         <li>CSS</li>
         <li>JS</li>
     </ul>
+    <hr>
+    <h2>언어의 역할</h2>
 
     <!-- 테이블 태그 -->
-    <table>
-        
+    <!-- tr태그는 하나의 행을 정의, 하나 이상의 th(제목셀)이나 td(셀)를 포함할 수 있음-->
+    <table border="1">
+        <caption>언어의 역할을 알아보아요</caption>
+        <tr>
+            <th>언어</th>
+            <th>역할</th>
+        </tr>    
+        <tr>
+            <td>HTML</td>
+            <td>문서 내용을 작성</td>
+        </tr>    
+        <tr>
+            <td>CSS</td>
+            <td>문서 디자인을 담당</td>
+        </tr>    
+        <tr>
+            <td>JS</td>
+            <td>문서 기능을 부여</td>
+        </tr>    
     </table>
+    <hr>
+    <h2>질문하기</h2>
+
+    <!-- 입력 태그 -->
+    작성자 : <input type="text"/> 질문 내용 : <input type="text"/>
+
 </body>
 </html>
