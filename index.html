@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- 텍스트 태그 (+ 이 기호는 주석) -->
-    <h1>홈페이지 만들기</h1>
+    <h1>★홈페이지 만들기★</h1>
     <hr>
     <!-- h2는 부제목, 글씨크기 더 작음 -->
     <h2>뭐부터 시작하면 좋을까</h2>
@@ -59,11 +59,48 @@
             <td>문서 기능을 부여</td>
         </tr>    
     </table>
-    <hr>
-    <h2>질문하기</h2>
 
     <!-- 입력 태그 -->
-    작성자 : <input type="text"/> 질문 내용 : <input type="text"/>
+    <hr>
+    <h2>방문자의 정보를 적어주세요</h2>
+    <!-- div는 태그를 묶어줌 하나의 블럭으로 처리, 한 줄을 몽땅 차지하게 됨 -->
+    <div>
+        <label>이름</label>
+        <input type="text">
+    </div>
+    <div>
+        <label>생년월일</label>
+        <input type="date">
+    </div>
+    <div>
+        <label>성별</label>
+        <select>
+            <option>여성</option>
+            <option>남성</option>
+        </select>
+    </div>
+    
+
+    <hr>
+    <h2>방문 사유를 적어주세요</h2>
+    <textarea></textarea>
+
+    <hr>
+    <h2>가능한 언어를 골라주세요</h2>
+    <input type="checkbox"><label>HTML</label>
+    <input type="checkbox"><label>CSS</label>
+    <input type="checkbox"><label>JS</label>
+
+    <!-- name으로 묶어주면 묶음당 하나의 답변만 선택 가능 -->
+    <hr>
+    <h2>홈페이지를 평가 해 주세요</h2>
+    <input type="radio" name="estimation"><label>매우 만족</label>
+    <input type="radio" name="estimation"><label>만족</label>
+    <input type="radio" name="estimation"><label>보통</label>
+    <input type="radio" name="estimation"><label>불만족</label>
+    <input type="radio" name="estimation"><label>매우 불만족</label>
+
+    
 
 </body>
 </html>
