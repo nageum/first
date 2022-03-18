@@ -1,0 +1,11 @@
+body{
+    font-family: "NanumGothic";
+}
+
+
+.male {color: darkslateblue;}
+.female {color: hotpink;}
+
+ol {list-style: lower-alpha;}
+
+#ceo {background-color: darkgray;}
